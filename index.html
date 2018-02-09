@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="modewheel, mode, modes, scales, scale, theory, major, minor, ionian, dorian, phrygian, lydian, mixolydian, aeolian, locrian, guide, tool, circle, aid, helper, spin, turn, rotate, pattern, step, steps, patterns, sequence, sequences, reference">
+  <meta name="description" content="Modewheel is a reference tool that shows you the notes of each mode of the major scale in a given key. It is a quick and easy way to see the notes used in any given mode. It also helps with learning the modes of the major scale ">
+  <title>Modewheel.co.uk - The Mode Wheel</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111729649-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111729649-1');
+  </script>
+</head>
+
+<body onresize="height()" onload="height()">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">Modewheel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main" class="container">
+
+    <div class="starter-template">
+      <div id="mode-chooser">
+        <select id="mode-select" class="form-control form-control-lg">
+          <option value="major">Major</option>
+          <option value="harmonic_minor">Harmonic Minor</option>
+          <option value="melodic_minor">Melodic Minor</option>
+        </select>
+      </div>
+      <div id="container">
+        <img id="modes" src="img/wheel_modes_major.png">
+        <img id="notes" src="img/wheel_notenames.png">
+
+      </div>
+    </div>
+
+  </main>
+  <!-- /.container -->
+
+  <!-- Bootstrap core JavaScript
+   ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+  padding-top: 3rem;
+  background-color: #ccc;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+#container{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
+  overflow: hidden;
+}
+img{
+  max-width: 100%;
+}
+#modes{
+  position: absolute;
+}
+#ro, .hidden {
+  display: none;
+  visibility: hidden;
+}
+.input-row {
+  text-align: left;
+}
+@media screen and (orientation: landscape) {
+  #container {
+    max-height: 100%;
+  }
+}
